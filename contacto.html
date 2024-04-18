@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería de Artes</title>
+    <title>Destellos de Colores</title>
 
 </head>
 <body>
@@ -14,5 +14,43 @@
         <a href="contacto.html">Contacto</a>
     </nav>
 </header>
-/* crear formulario con shatyipiti */
-/* no olvidar leer el apunte y no cagarla como el yisus */
+    <h1 style="color: #c908e7"> Contáctanos </h1>
+    <form action="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <br>
+        <br>
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" name="correo" id="correo">
+        <br>
+        <br>
+        <label for="tipo-solicitud">Tipo de solicitud:</label>
+        <select id="tipo-solicitud" name="tipo-solicitud" required>
+            <option value="compra">Compra</option>
+            <option value="consulta">Consulta</option>
+            <option value="venta">Venta</option>
+        </select>
+        <br>
+        <br>
+        <label for="dirección">Dirección:</label>
+        <input type="dirección" name="Dirección:" id="dirección">
+        <br>
+        <br>
+        <label for="teléfono-de-contacto">Teléfono de Contacto:</label>
+        <input type="teléfono-de-contacto" name="Teléfono de Contacto:" id="teléfono-de-contacto">
+        <br>
+        <br>
+        <label for="Tu mensaje">Tu mensaje:</label>
+        <br>
+        <br>
+        <textarea name="Tu mensaje" id="Tu mensaje" cols="40" rows="10"></textarea>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+        </form>
+
+<footer style="text-align: center; font-style: italic">
+    <p>"Destellos de Colores &copy" 2024. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
