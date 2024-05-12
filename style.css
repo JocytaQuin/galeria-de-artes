@@ -1,0 +1,55 @@
+    h1 {
+        color: yellow;
+        background-color: darkseagreen;
+        font-family: Impact;
+
+    }
+    .h3_inicio {
+        color: black;
+        font-family: Arial
+    }
+
+    h2 {
+        color: black;
+        font-family: "Arial Black";
+    }
+
+    p {
+        font-family: Arial
+    }
+
+    .contacto {
+        background-image:url("I9.jpg");
+        background-size: cover;
+    }
+
+    form {
+        margin: auto;
+        max-width: 450px;
+        background: darkseagreen;
+        padding: 20px;
+        box-shadow: 0px 0px 5px black;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    input, textarea, option {
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding: 10px;
+        outline:none;
+    }
+
+    select {
+        margin-bottom: 6px;
+        padding: 5px;
+    }
+
+    textarea {
+        min-height: 140px;
+        max-height: 200px;
+        max-width: 100%;
+        border: 1px solid white;
+        margin: auto;
+    }
+
