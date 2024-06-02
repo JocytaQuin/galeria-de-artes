@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (mensaje.toLowerCase().includes('compra')) {
             tipoSolicitud.value = 'compra';
         } else if (mensaje.toLowerCase().includes('venta')) {
-            tipoSolicitud.value = 'vaddenta';
+            tipoSolicitud.value = 'venta';
         }
     }
 });
